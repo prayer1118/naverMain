@@ -1,0 +1,227 @@
+.header{
+    width: 1280px;
+    /* background-color: lightblue; */
+    margin: auto;
+    position: relative;
+    padding-top: 0.1px;
+}
+.header .ham{
+    position: absolute;
+    top: 28px;
+    background-image: url(./images/hamburger.png);
+    width: 26px;
+    height: 26px;
+
+}
+.header .pay{
+    position: absolute;
+    top: 28px;
+    left: 50px;
+    background-image: url(./images/payBtn.png);
+    width: 30px;
+    height: 26px;
+}
+.header .chat{
+    position: absolute;
+    top: 28px;
+    right: 50px;
+    background-image: url(./images/chatBtn.png);
+    width: 26px;
+    height: 26px;
+}
+.header .alarm{
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    background-image: url(./images/alarm.png);
+    width: 26px;
+    height: 26px;
+}
+.header .search-box{
+    width: 706px;
+    height: 58px;
+    border-radius: 30px;
+    margin: 65px auto 0px auto;
+    border: 1px solid #03C75A;
+    position: relative;
+}
+.header .logo{
+    background-image: url(./images/naverLogo.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 27px;
+    top: 17px;
+}
+.header .bar{
+    width: 1px;
+    height: 20px;
+    background: #E8ECEE;
+    position: absolute;
+    left: 67px;
+    top: 20px;
+}
+.header .search-input{
+    margin-top: 15px;
+    margin-left: 83px;
+    width: 480px;
+    height: 27px;
+    color: red;
+    font-family: Malgun Gothic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    border: none;
+}
+.header .search-box ::placeholder{
+    color: #E4E4E4;
+}
+.header .banner{
+    position: absolute;
+    right: 50px;
+    top: 64px;
+    background-image: url(./images/ad.png);
+    width: 220px;
+    height: 60px;
+}
+.header .btn-list{
+    width: 676px;
+    height: 75px;
+    /* background-color: lightcoral; */
+    margin: 13px auto 0px auto;
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+}
+.header .search-item{
+    width: 64px;
+    height: 75px;
+    /* background-color: blue; */
+    position: relative;
+}
+.header .icon-mail::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn1.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-cafe::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn2.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-blog::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn3.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-shopping::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn4.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-news::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn5.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-stock::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn6.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-land::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn7.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-map::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn8.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-wep::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn9.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-more::before{
+    content: "";
+    display: block;
+    background-image: url(./images/btn10.png);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    z-index: 1;
+}
+.header .icon-common::after{
+    content: "";
+    display: block;
+    background-image: url(./images/btn-bg.png);
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 5px;
+}
+.header .mail-txt{
+    display: block;
+    text-align: center;
+    padding-top: 55px;
+}
