@@ -1,0 +1,209 @@
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: #F5F6F7;
+    margin-top: 60px;
+}
+.footer .sub-footer{
+    width: 1280px;
+    height: 100%;
+    padding-bottom: 78px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.footer .footer-img{
+    width: 100%;
+    height: 161px;
+    padding: 30px 10px 30px 0px;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 20px;
+    
+}
+.footer .footer1{
+    display: flex;
+}
+.footer .footer-text{
+    width: 232px;
+    margin-left: 18px;
+}
+.footer .footer1 img{
+    border-radius: 8px;
+}
+.footer .footer-text .title{
+    width: 50px;
+    height: 20px;
+    background-color: #A0ADB2;
+    color: #FFF;
+    font-family: Malgun Gothic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: -0.25px;
+    padding: 1px 6px 3px 6px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+.footer .footer-text h3{
+    color: #222122;
+    font-family: Malgun Gothic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16.002px; /* 123.092% */
+    letter-spacing: -0.7px;
+    margin-top: 13px;
+    margin-bottom: 6px;
+}
+.footer .footer-text p{
+    color: #545454;
+    font-family: Malgun Gothic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.02px; /* 154% */
+    letter-spacing: -0.7px;
+    
+}
+.footer .footer-check{
+    width: 100%;
+    height: 60px;
+    /* background-color: green; */
+    border-top: 1px solid #ebebeb;
+}
+.footer .sub-check{
+    height: 17px;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.footer .sub-check span:nth-child(1){
+    color: #101010;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px; /* 134.387% */
+    letter-spacing: -0.4px;
+}
+.footer .sub-check span:nth-child(2){
+    color: #404040;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 134.387% */
+    letter-spacing: -0.4px;
+    margin-left: 14px;
+}
+.footer .sub-check .check-block{
+    width: 765px;
+}
+.footer .sub-check .service{
+    color: #101010;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px; /* 134.387% */
+    letter-spacing: -0.4px;
+    margin-right: 15px;
+}
+.footer .btm{
+    width: 100%;
+    height: 121px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    /* background-color: aqua; */
+    position: relative;
+}
+.footer .create{
+    display: flex;
+    margin-top: 15px;
+}
+.footer .btm .title{
+    margin-right: 56px;
+    color: #101010;
+    font-family: Malgun Gothic;
+    font-size: 13.65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 146.52% */
+    letter-spacing: -0.4px;
+    /* align-self: center; */
+}
+.footer .sub1{
+    display: flex;
+    color: #404040;
+    align-self: center;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 158.103% */
+    letter-spacing: -0.4px;
+    
+}
+.footer .sub2{
+    color: #404040;
+    align-self: center;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 158.103% */
+    letter-spacing: -0.4px;
+    
+}
+.footer .sub1::after{
+    content: "";
+    width: 1px ;
+    height: 12px;
+    background-color: #D3D5D7;
+    align-self: center;
+    margin: 0px 16px 0px 16px;
+}
+.footer .wail-text h3{
+    color: #101010;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.85px; /* 141.107% */
+    letter-spacing: -0.4px;
+}
+.footer .wail-text p{
+    color: #404040;
+    font-family: Malgun Gothic;
+    font-size: 12.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.85px; /* 141.107% */
+    letter-spacing: -0.4px;
+}
+.footer .wail{
+    display: flex;
+    position: absolute;
+    left: 896px;
+    top: 36px;
+}
+.footer .flower{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 36px;
+}
+.footer .wail img{
+    margin-left: 34px;
+}
+.footer .flower img{
+    margin-left: 34px;
+}
+.footer .footer-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    
+    
+}
